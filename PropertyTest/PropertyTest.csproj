@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpGen.Runtime">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\SharpGen.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.Direct2D1">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\Vortice.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.DirectX">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\Vortice.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Vortice.Mathematics">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\Vortice.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="YukkuriMovieMaker.Controls">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\YukkuriMovieMaker.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="YukkuriMovieMaker.Plugin">
+      <HintPath>C:\Program Files\YukkuriMovieMaker_v4_Lite\YukkuriMovieMaker.Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
