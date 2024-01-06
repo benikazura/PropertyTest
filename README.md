@@ -1,4 +1,4 @@
-#発生しているエラー
+# 発生しているエラー
 コード : CS0426  
 説明 : 型名'CustomProperty'が型'PropertyTest'に存在しません  
 プロジェクト : PropertyTest  
